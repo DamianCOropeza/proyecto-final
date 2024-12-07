@@ -1,0 +1,20 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cajitas-main{
+    margin: 15px;
+    background-color: rgb(225, 50, 50);
+}
+.cajita{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin-right: 10px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
