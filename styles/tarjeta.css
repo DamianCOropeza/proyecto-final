@@ -16,11 +16,13 @@ body{
 }
 #tarjetauno .contenedorimagen .imagenizq{
     max-width: 100%;
+    height: auto;
 }
 .contenedortexto{
     color: white;
     text-align: center;
     width: 365px;
+    line-height: 2.5;
 }
 .contenedorint{
     display: inline-block;
