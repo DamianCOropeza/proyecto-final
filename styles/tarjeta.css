@@ -8,17 +8,16 @@ body{
 }
 #tarjetauno{
     background-color: #1e3932;
-    position: relative;
-
 }
 #tarjetauno .contenedorimagen{
     width: 50%;
+    display: inline-block;
+    vertical-align: middle;
 }
 #tarjetauno .contenedorimagen .imagenizq{
     max-width: 100%;
 }
 .contenedortexto{
-    position:absolute;
     color: white;
     text-align: center;
     width: 365px;
