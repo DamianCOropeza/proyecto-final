@@ -16,19 +16,27 @@ body{
     height: 350px;
     margin-right: 10px;
     background-color: goldenrod;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
-    padding: 30px 10px 10px 10px;
-
+    padding: 90px 10px 10px 10px;
+    overflow: hidden;
 }
 .cajitas-titulo{
-margin-bottom: 50px;
+    margin-bottom: 65px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+p{
+    position: relative;
+    z-index: 1;
+    color: #393737;
 }
 .boton-custom{
-    margin-top: 20px;
-    width: 140px;
-    height: 40px;
-    border-radius: 10px;
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
     color: cadetblue;
     border: 0;
 }
@@ -41,11 +49,24 @@ background-color: purple;
 .colorverde{
     background-color: rgb(45, 134, 45);
 }
-.circulo{
-    top: -15%;
+
+.cajita::before{
+    border-radius: 50%;
+    content: '';
     width: 250px;
     height: 250px;
+    background-color: rgb(227, 138, 22);
+    left: 0;
+    top: -124px;
     position: absolute;
-    background-color: black;
-    border-radius: 50%;
+    z-index: 0;
+}
+.cajita.morado::before{
+    background-color: purple;
+}
+.cajita.verde::before{
+    background-color: rgb(45, 134, 45);
+}
+.cajita.azul::before{
+    background-color: rgb(53, 53, 120);
 }
