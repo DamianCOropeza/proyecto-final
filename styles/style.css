@@ -40,3 +40,16 @@ ul .list-item{
     border: 3px solid orange;
     background-color: olivedrab;
 }
+.navegador{
+    padding: 20px;
+    background-color: deeppink;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: darkslateblue;
+}
