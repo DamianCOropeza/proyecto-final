@@ -1,0 +1,29 @@
+h1{
+    font-size: 100px;
+    padding: 50px;
+}
+h2, h3, h4{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto-custom{
+    color: red;
+    background-color: blanchedalmond;
+}
+.texto-custom-dos{
+    color: green;
+    background-color: azure;
+}
+.espacio-abajo-custom{
+    margin-bottom: 50px;
+}
+
+#identificador-parrafo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.list-item{
+    margin-left: 30px;
+}
+ul .list-item{
+    border: 2px solid black
+}
