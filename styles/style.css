@@ -5,10 +5,13 @@ h1{
 h2, h3, h4{
     color: aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    font-size: 8rem;
 }
 .texto-custom{
     color: red;
     background-color: blanchedalmond;
+    font-style: italic;
 }
 .texto-custom-dos{
     color: green;
