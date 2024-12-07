@@ -18,14 +18,8 @@ body{
     background-color: goldenrod;
     border-radius: 15px;
     text-align: center;
-    padding: 90px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
     overflow: hidden;
-}
-.cajitas-titulo{
-    margin-bottom: 65px;
-    position: relative;
-    z-index: 1;
-    color: white;
 }
 p{
     position: relative;
@@ -69,4 +63,10 @@ background-color: purple;
 }
 .cajita.azul::before{
     background-color: rgb(53, 53, 120);
+}
+.cajita-titulo{
+    margin-bottom: 65px;
+    position: relative;
+    z-index: 1;
+    color: white;
 }
