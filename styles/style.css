@@ -55,15 +55,20 @@ ul .list-item{
     background-color: olivedrab;
 }
 .navegador{
-    padding: 20px;
+    height: 50px;
     background-color: deeppink;
 }
 .nav-item{
     display: inline-block;
     list-style: none;
-    margin-right: 20px;
 }
 .nav-item a{
     text-decoration: none;
     color: darkslateblue;
+}
+.navegador-ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
 }
