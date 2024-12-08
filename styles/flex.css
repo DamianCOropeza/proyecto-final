@@ -5,7 +5,7 @@
 }
 
 #contenedorPrincipal{
-    background-color: #030303;
+    background-color: #87d3f1;
     height: 700px;
 }
 .contenedor-flex{
@@ -21,7 +21,7 @@
 }
 
 #contenedorPrincipal .caja{
-    color: white;
+    color: rgb(29, 15, 15);
     background-color:coral;
     width: 400px;
     height: 400px;
