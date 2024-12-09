@@ -98,3 +98,7 @@ mientras me desplazo y se va a quedar arriba*/
     un padding right para que no este todo pegado, y haya
     separación o un margin tmb*/
 }
+
+.nav-anchor{
+    text-decoration: none;
+}
