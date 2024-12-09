@@ -47,16 +47,38 @@ h1{
     margin-left: 30px;
 }
 ul .list-item{
+    background-color: antiquewhite;
     border: 2px solid black
 }
+
+ul .list-item a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+ul .nav-item a:hover{
+    color: goldenrod;
+    font-size: x-large;
+}
+
+ul .nav-item a icon:hover{
+    color: goldenrod;
+    font-size: x-large;
+}
+
 .caja-ejemplo{
     width: 400px;
     border: 3px solid orange;
     background-color: olivedrab;
 }
+/*con esta cosa de navegador está la cosa de arriba, donde me aparecen las 
+otras cosas, aquí el sticky y el 0 me dicen que va a quedarse
+mientras me desplazo y se va a quedar arriba*/
 .navegador{
     height: 50px;
     background-color: deeppink;
+    position: sticky;
+    top: 0;
 }
 .nav-item{
     display: inline-block;
@@ -71,4 +93,8 @@ ul .list-item{
     align-items: center;
     height: 100%;
     gap: 30px;
+    /* si se aplica un flez direction, low reverse, se va a poner
+    del lado derecho en vez del izquierdo, y hay que ponerle 
+    un padding right para que no este todo pegado, y haya
+    separación o un margin tmb*/
 }
