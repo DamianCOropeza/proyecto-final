@@ -1,0 +1,16 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color: darkseagreen;
+    height: 100vh;
+    .caja1{
+        background-color: mediumspringgreen;
+    }
+    .caja2{
+        background-color: green;
+    }
+}
