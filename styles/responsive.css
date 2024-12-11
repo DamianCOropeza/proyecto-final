@@ -7,10 +7,70 @@
 .main-container{
     background-color: darkseagreen;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja1{
+    background-color: mediumspringgreen;
+}
+/*
+@media screen and (max-width: 900px) {
     .caja1{
-        background-color: mediumspringgreen;
+        background-color: darkolivegreen;
+    }
+}
+/*esto significa que si me llega una pantalla de 901 px, va a 
+cambiar de color mi cosa*/
+
+/* lo mismo para esto, pero en chiquito*/
+
+@media screen and (min-width: 425px) {
+    .main-container{
+        flex-direction: row;
+    }
+    .caja1{
+        background-color: lightgreen;
+    }
+}
+
+.caja2{
+    background-color: green;
+}
+.caja3{
+    background-color: grey;
+}
+.caja4{
+    background-color: teal;
+}
+
+.caja{
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 425px) {
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .caja1{
+        grid-column: 1 / 13;
+        grid-row: 1 / 2;
     }
     .caja2{
-        background-color: green;
+        grid-column: 1 / 13;
+        grid-row: 2 / 4;
+    }
+    .caja3{
+        grid-column: 1 / 13;
+        grid-row: 4 / 6;
+    }
+    .caja4{
+        grid-column: 1 / 5;
+        grid-row: 2 / 4;
+        border: 1px solid black;
     }
 }
