@@ -186,3 +186,30 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
+
+/* aquí va el contenedor cuatro*/
+
+#tarjetacuatro{
+    background-color: #1e3932;
+}
+#tarjetacuatro .contenedorimagend{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#tarjetacuatro .contenedorimagend .imagenderd{
+    max-width: 100%;
+    height: auto;
+}
+.contenedortextod{
+    color: white;
+    text-align: center;
+    width: 365px;
+    line-height: 2.5;
+    padding-left: 80px;
+}
+.contenedorintd{
+    display: inline-block;
+    vertical-align: middle;
+}
