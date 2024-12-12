@@ -120,6 +120,7 @@ body{
 }
 .contenedorinta{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .espaciadorblanco{
@@ -155,6 +156,33 @@ body{
 }
 
 .contenedorintb {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* aquí va el contenedor tres*/
+
+#tarjetatres{
+    background-color: #d40434;
+}
+#tarjetatres .contenedorimagenc{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#tarjetatres .contenedorimagenc .imagenizqc{
+    max-width: 100%;
+    height: auto;
+}
+.contenedortextoc{
+    color: white;
+    text-align: center;
+    width: 365px;
+    line-height: 2.5;
+    padding-left: 80px;
+}
+.contenedorintc{
     display: inline-block;
     vertical-align: middle;
 }
