@@ -41,16 +41,27 @@ body{
 }
 
 .cookie-banner{
-    padding: 30px ;
-    border-top: 1px solid;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
+    align-items: baseline;
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    bottom: 0px;
+}
+.classstylecookie .cookie-banner{
+        flex: 1 0 300px;
+        margin: 30px;
 }
 
 .banner-text-container{
-flex-grow: 1;
+    flex-grow: 1;
+    flex: 1 0 300px;
+    margin: 30px;
 }
 
 .cookie-banner .banner-text-bold{
@@ -64,14 +75,23 @@ flex-grow: 1;
 }
 
 .cookie-banner .banner-button-container .banner-button {
-    background-color: black;
-    color: white;
-    font-weight: 700;
-    padding: 10px 5px;
-    border-radius: 25px;
-    width: 100px;
-    cursor: pointer;
-}
+        background: none rgb(0, 0, 0);
+        border: 1px solid;
+        border-radius: 50px;
+        box-shadow: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        flex: 0 0 auto;
+        padding: 7px 16px;
+        margin: 15px;
+        display: inline-block;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+        text-decoration: none;
+        transition: 0.2s;
+        font-size: 1rem;
+    }
 
 .invisible{
     display: none;
@@ -79,32 +99,62 @@ flex-grow: 1;
 
 /*A partir de aquí viene la tarjeta uno*/
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-body{
-    font-family: "Roboto", sans-serif;
-}
 #tarjetauno{
     background-color: #1e3932;
 }
-#tarjetauno .contenedorimagen{
+#tarjetauno .contenedorimagena{
     width: 50%;
     display: inline-block;
     vertical-align: middle;
 }
-#tarjetauno .contenedorimagen .imagenizq{
+
+#tarjetauno .contenedorimagena .imagenizqa{
     max-width: 100%;
     height: auto;
 }
-.contenedortexto{
+.contenedortextoa{
     color: white;
     text-align: center;
     width: 365px;
     line-height: 2.5;
 }
-.contenedorint{
+.contenedorinta{
     display: inline-block;
+}
+
+.espaciadorblanco{
+    background-color: white;
+    height: 60px;
+}
+
+
+/* Esta será la tarjeta dos*/
+#tarjetados {
+    background-color: #036ebaea;
+}
+
+#tarjetados .contenedorimagenb {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px; /* Agregado espaciado inferior */
+}
+
+#tarjetados .contenedorimagenb .imagenderb {
+    max-width: 50%;
+    height: auto;
+    margin-right: 60px;
+}
+
+.contenedortextob{
+    color: white;
+    text-align: center;
+    width: 365px;
+    line-height: 2.5;
+}
+
+.contenedorintb {
+    display: inline-block;
+    vertical-align: middle;
 }
