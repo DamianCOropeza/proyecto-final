@@ -76,3 +76,35 @@ flex-grow: 1;
 .invisible{
     display: none;
 }
+
+/*A partir de aquí viene la tarjeta uno*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+#tarjetauno{
+    background-color: #1e3932;
+}
+#tarjetauno .contenedorimagen{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#tarjetauno .contenedorimagen .imagenizq{
+    max-width: 100%;
+    height: auto;
+}
+.contenedortexto{
+    color: white;
+    text-align: center;
+    width: 365px;
+    line-height: 2.5;
+}
+.contenedorint{
+    display: inline-block;
+}
