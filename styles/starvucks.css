@@ -105,7 +105,7 @@ body {
     background-color: #1e3932;
     max-width: 1400px;
     height: 467px;
-    margin: 38px auto 0;
+    margin: 0 auto;
 }
 
 .tarjetauno__div-img {
@@ -325,6 +325,9 @@ body {
 .tarjetasFooter__tarjeta-A {
     background-color: #f6bfd9;
     height: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tarjeta-A__div-imagen {
@@ -334,6 +337,14 @@ body {
     width: 100%;
 }
 
+.tarjeta-A__footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .tarjeta-A__texto {
     color: rgb(213, 0, 50);
     font-size: 19px;
@@ -341,6 +352,7 @@ body {
     letter-spacing: -0.16px;
     line-height: 33.264px;
 }
+
 
 .tarjeta-A__boton {
     text-decoration: none;
