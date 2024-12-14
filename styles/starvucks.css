@@ -309,6 +309,20 @@ body {
     letter-spacing: -0.16px;
     line-height: 33.264px;
     margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.tarjetacinco__p-boton {
+}
+
+.tarjetacinco__boton {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    border: white 1px solid;
+    height: 16px;
+    width: 62px;
+    padding: 7px 16px;
 }
 
 /* Tarjetas dobles*/
@@ -492,9 +506,29 @@ body {
 
 .footer__social {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 250px;
+margin: 20px auto;
 }
 
 .footer__social-facebook {
+    height: 34px;
+    width: 34px;
+}
+
+.footer__social-Ig {
+    height: 34px;
+    width: 34px;
+}
+
+.footer__social-X {
+    height: 34px;
+    width: 34px;
+}
+
+.footer__social-YT {
     height: 34px;
     width: 34px;
 }
