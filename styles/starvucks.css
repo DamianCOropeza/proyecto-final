@@ -510,7 +510,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     width: 250px;
-margin: 20px auto;
+    margin: 20px auto;
 }
 
 .footer__social-facebook {
@@ -545,9 +545,19 @@ margin: 20px auto;
     border-right: rgb(153, 153, 153) 1px solid;
 }
 
+.footer__secundario-li a{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+
 .footer__secundario-li:last-child {
     border: none;
 }
 
 .footer__copy {
+    color: #999;
+    display: block;
+    font-size: .875rem;
+    font-weight: 300;
+    text-align: center;
 }
