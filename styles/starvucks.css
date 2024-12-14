@@ -184,116 +184,134 @@ body {
 
 /* aquí va el contenedor tres*/
 
-#tarjetatres {
+.tarjetatres {
+    display: flex;
+    flex-direction: row;
     background-color: #d40434;
     max-width: 1400px;
+    height: 467px;
     margin: 38px auto 0;
 }
-#tarjetatres .contenedorimagenc {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
+
+.tarjetatres__div-img {
 }
 
-#tarjetatres .contenedorimagenc .imagenizqc {
-    max-width: 100%;
-    height: auto;
+.tarjetatres__img {
+    height: 100%;
 }
 
-.contenedortextoc {
-    color: white;
+.tarjetatres__div-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    width: 365px;
-    line-height: 2.5;
-    padding-left: 80px;
+    max-width: 554px;
 }
-.contenedorintc {
-    display: inline-block;
-    vertical-align: middle;
+
+.ptarjetatres__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 42px;
+}
+
+.ptarjetatres__texto {
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 33.264px;
+    margin-top: 24px;
 }
 
 /* aquí va el contenedor cuatro*/
 
-#tarjetacuatro {
+.tarjetacuatro {
+    display: flex;
+    flex-direction: row-reverse;
     background-color: #1e3932;
     max-width: 1400px;
+    height: 467px;
     margin: 38px auto 0;
 }
 
-#tarjetacuatro .contenedorimagend {
+.tarjetacuatro__div-img {
+}
+
+.tarjetacuatro__img {
+    height: 100%;
+}
+
+.tarjetacuatro__div-texto {
     display: flex;
-    flex-direction: row-reverse;
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#tarjetacuatro .contenedorimagend .imagenderd {
-    max-width: 100%;
-    height: auto;
-}
-
-.contenedortextod {
-    color: white;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    width: 365px;
-    line-height: 2.5;
-    padding-left: 80px;
+    max-width: 554px;
 }
-.contenedorintd {
-    display: inline-block;
-    vertical-align: middle;
+
+.ptarjetacuatro__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 42px;
+}
+
+.ptarjetacuatro__texto {
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 33.264px;
+    margin-top: 24px;
 }
 
 /* aquí va la imagen 5*/
 
-#tarjetacinco {
+.tarjetacinco {
+    display: flex;
+    flex-direction: row;
     background-color: #d40434;
     max-width: 1400px;
+    height: 467px;
     margin: 38px auto 0;
 }
 
-#tarjetacinco .contenedorimagene {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
+.tarjetacinco__div-img {
 }
 
-#tarjetacinco .contenedorimagene .imagenizqe {
-    max-width: 100%;
-    height: auto;
+.tarjetacinco__img {
+    height: 100%;
 }
 
-.contenedortextoe {
-    color: white;
-    text-align: center;
-    width: 365px;
-    line-height: 2.5;
-    padding-left: 80px;
-}
-.contenedorinte {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#tarjetacinco .banner-button-red {
+.tarjetacinco__div-texto {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    max-width: 554px;
 }
 
-#conoce-mas .banner-button-red .banner-buttonn {
-    display: inline-block;
-    background: none;
-    border: 1px solid white;
-    border-radius: 50px;
-    padding: 7px 16px;
-    font-weight: 600;
-    line-height: 1;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+.ptarjetacinco__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 42px;
 }
+
+.ptarjetacinco__texto {
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 33.264px;
+    margin-top: 24px;
+}
+
+/* Tarjetas dobles*/
 
 .tarjetasFooter {
     max-width: 1400px;
