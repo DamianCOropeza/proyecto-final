@@ -99,31 +99,45 @@ body {
 
 /*A partir de aquí viene la tarjeta uno*/
 
-#tarjetauno {
+.tarjetauno {
+    display: flex;
+    flex-direction: row;
     background-color: #1e3932;
     max-width: 1400px;
-    margin: 0 auto;
-}
-#tarjetauno .contenedorimagena {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
+    height: 467px;
+    margin: 38px auto 0;
 }
 
-#tarjetauno .contenedorimagena .imagenizqa {
-    max-width: 100%;
-    height: auto;
+.tarjetauno__div-img {
 }
 
-.contenedortextoa {
-    color: white;
+.tarjetauno__img {
+    height: 100%;
+}
+
+.tarjetauno__div-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    width: 365px;
-    line-height: 2.5;
+    max-width: 554px;
 }
-.contenedorinta {
-    display: inline-block;
-    vertical-align: middle;
+
+.ptarjetauno__title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 42px;
+}
+
+.ptarjetauno__texto {
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: -0.16px;
+    line-height: 33.264px;
+    margin-top: 24px;
 }
 
 /* Esta es la tarjeta dos*/
